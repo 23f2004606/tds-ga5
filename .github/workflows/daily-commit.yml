@@ -2,8 +2,8 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '30 8 * * *'   # Runs daily at 08:30 UTC
-  workflow_dispatch:       # Allows manual triggering
+    - cron: '30 8 * * *'
+  workflow_dispatch:
 
 jobs:
   commit:
@@ -13,14 +13,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: true  # Ensure GITHUB_TOKEN is used for push
+          persist-credentials: false  # We'll use PAT instead
 
       - name: Add commit by 23f2004606@ds.study.iitm.ac.in
         run: |
-          # Create or update a daily file
           echo "Daily commit $(date)" >> daily_commit.txt
           git config --global user.name "GitHub Action"
           git config --global user.email "23f2004606@ds.study.iitm.ac.in"
           git add daily_commit.txt
           git commit -m "Daily commit $(date)" || echo "No changes to commit"
-          git push
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
