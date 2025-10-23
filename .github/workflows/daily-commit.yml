@@ -1,20 +1,22 @@
 name: Daily Commit
 
-# Schedule to run daily at a specific time (e.g., 08:30 UTC)
+# Trigger workflow on schedule and manually
 on:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '30 8 * * *'   # Runs daily at 08:30 UTC
+  workflow_dispatch:       # Allows manual triggering
 
 jobs:
   commit:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Add commit by 23f2004606@ds.study.iitm.ac.in
         run: |
-          # Create or update a dummy file
+          # Create or update a daily file
           echo "Daily commit $(date)" >> daily_commit.txt
           git config --global user.name "GitHub Action"
           git config --global user.email "23f2004606@ds.study.iitm.ac.in"
