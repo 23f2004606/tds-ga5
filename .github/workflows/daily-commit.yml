@@ -2,7 +2,7 @@ name: Daily Commit
 
 on:
   schedule:
-    - cron: '30 8 * * *'
+    - cron: '30 8 * * *' # runs daily at 08:30 UTC
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # We'll use PAT instead
+          persist-credentials: false  # disable default GITHUB_TOKEN
 
       - name: Add commit by 23f2004606@ds.study.iitm.ac.in
         run: |
