@@ -1,6 +1,5 @@
 name: Daily Commit
 
-# Trigger workflow on schedule and manually
 on:
   schedule:
     - cron: '30 8 * * *'   # Runs daily at 08:30 UTC
@@ -13,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # Ensure GITHUB_TOKEN is used for push
 
       - name: Add commit by 23f2004606@ds.study.iitm.ac.in
         run: |
