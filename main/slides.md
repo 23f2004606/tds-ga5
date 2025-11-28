@@ -1,11 +1,10 @@
 ---
 marp: true
 theme: custom-tech
-author: "Technical Writer"
+author: Technical Writer
 paginate: true
-_paginate: false
-header: "Product Documentation — Technical Overview"
-footer: "Contact: 23f2004606@ds.study.iitm.ac.in
+header: Product Documentation — Technical Overview
+footer: "Contact: 23f2004606@ds.study.iitm.ac.in"
 ---
 
 <!-- Custom Theme Definition -->
@@ -89,6 +88,5 @@ $$ T(n) = O(n \log n) $$
 ---
 
 # Thank You
-
 ### Questions?
 **Contact:** 23f2004606@ds.study.iitm.ac.in
