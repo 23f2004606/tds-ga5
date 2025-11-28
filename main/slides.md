@@ -1,45 +1,11 @@
 <!-- Author email: 23f2004606@ds.study.iitm.ac.in -->
 ---
-marp: true
-paginate: true
-_class: lead
-marp: true
-theme: custom-tech
-paginate: true
-header: "Product Documentation"
-footer: "Contact: 23f2004606@ds.study.iitm.ac.in"
----
+![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80)
+# Platform Architecture
 
-<!-- Custom Theme Definition -->
-<style>
-section {
-  font-family: 'Segoe UI', sans-serif;
-  color: #e8e8e8;
-  background-color: #0c0f14;
-}
-h1, h2, h3 {
-  color: #6ab0f3;
-}
-code {
-  background: #1a1f27;
-  padding: 4px 6px;
-  border-radius: 4px;
-  font-size: 0.9rem;
-}
-footer {
-  color: #bbbbbb;
-}
-</style>
+### High-level system overview with visual context
 
-# Product Documentation Presentation
-<!-- _class: lead -->
-## Maintainable • Version-Control Friendly • Exportable
-
-**Author:** 23f2004606@ds.study.iitm.ac.in
-
----
-
-<!-- Slide with Background Image -->
+->
 ---
 ![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80)
 # Platform Architecture
