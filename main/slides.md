@@ -2,9 +2,8 @@
 ---
 marp: true
 theme: custom-tech
-author: Technical Writer
 paginate: true
-header: Product Documentation — Technical Overview
+header: "Product Documentation"
 footer: "Contact: 23f2004606@ds.study.iitm.ac.in"
 ---
 
@@ -30,61 +29,49 @@ footer {
 </style>
 
 # Product Documentation Presentation
-### Modern, Maintainable, Version-Control Friendly
-**Author Email:** 23f2004606@ds.study.iitm.ac.in
+## Maintainable • Version-Control Friendly • Exportable
 
----
-
-# System Architecture Overview
-
-- Modular services
-- Containerized deployment
-- CI/CD enabled workflow
+**Author:** 23f2004606@ds.study.iitm.ac.in
 
 ---
 
 <!-- Slide with Background Image -->
-<!-- Use a royalty-free image URL -->
-<!--
+---
 backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80"
 backgroundSize: cover
--->
+backgroundPosition: center
+# Platform Architecture
 
-# Platform Workflow
-
-## End-to-End Automation Pipeline
+### High-level system overview with visual context
 
 ---
 
-# API Example
+# API Structure
 
 ```json
 {
   "status": "ok",
   "version": "1.4.2",
-  "features": ["logging", "auth", "monitoring"]
+  "components": ["auth", "logging", "monitoring"]
 }
 ```
 
 ---
 
-# Mathematical Model
-
-### Algorithmic Complexity
+# Algorithmic Complexity
 
 For a divide-and-conquer function:
 
 $$ T(n) = 2T(\frac{n}{2}) + n $$
 
-This resolves to:
+It simplifies to:
 
 $$ T(n) = O(n \log n) $$
 
 ---
 
-# Custom Styled Notes
-
-> **Note:** All components are designed to be *scalable*, *testable*, and *compatible* with container orchestration systems.
+# Notes
+> All modules are designed for scalability, testability, and container-friendly deployment.
 
 ---
 
