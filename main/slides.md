@@ -29,6 +29,7 @@ footer {
 </style>
 
 # Product Documentation Presentation
+<!-- _class: lead -->
 ## Maintainable • Version-Control Friendly • Exportable
 
 **Author:** 23f2004606@ds.study.iitm.ac.in
