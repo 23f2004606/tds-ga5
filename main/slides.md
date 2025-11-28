@@ -37,7 +37,7 @@ footer {
 
 <!-- Slide with Background Image -->
 ---
-backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80"
+backgroundImage: "https://www.google.com/imgres?q=iit%20madras%20login&imgurl=https%3A%2F%2Fstudy.iitm.ac.in%2Fds%2Fassets%2Fimg%2Flogo.png&imgrefurl=https%3A%2F%2Fonlinedegree.iitm.ac.in%2F&docid=ti-odKyeF8OkBM&tbnid=S19mi1x4zkK-7M&vet=12ahUKEwjRkZWz9JSRAxXF4zgGHWzuGSUQM3oECBgQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwjRkZWz9JSRAxXF4zgGHWzuGSUQM3oECBgQAA"
 backgroundSize: cover
 backgroundPosition: center
 # Platform Architecture
