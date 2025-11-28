@@ -5,7 +5,7 @@ author: "Technical Writer"
 paginate: true
 _paginate: false
 header: "Product Documentation — Technical Overview"
-footer: "Contact: 23f2004606@ds.study.iitm.ac.in"
+footer: "Contact: 23f2004606@ds.study.iitm.ac.in
 ---
 
 <!-- Custom Theme Definition -->
