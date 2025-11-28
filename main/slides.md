@@ -37,12 +37,20 @@ footer {
 
 <!-- Slide with Background Image -->
 ---
-backgroundImage: "https://www.google.com/imgres?q=iit%20madras%20login&imgurl=https%3A%2F%2Fstudy.iitm.ac.in%2Fds%2Fassets%2Fimg%2Flogo.png&imgrefurl=https%3A%2F%2Fonlinedegree.iitm.ac.in%2F&docid=ti-odKyeF8OkBM&tbnid=S19mi1x4zkK-7M&vet=12ahUKEwjRkZWz9JSRAxXF4zgGHWzuGSUQM3oECBgQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwjRkZWz9JSRAxXF4zgGHWzuGSUQM3oECBgQAA"
+backgroundImage: "url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80')"
 backgroundSize: cover
 backgroundPosition: center
 # Platform Architecture
 
 ### High-level system overview with visual context
+
+---
+backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80"
+backgroundSize: cover
+backgroundPosition: center
+# Platform Architecture
+
+### High‑level system overview with visual context
 
 ---
 
@@ -60,7 +68,7 @@ backgroundPosition: center
 
 # Algorithmic Complexity
 
-For a divide-and-conquer function:
+For a divide‑and‑conquer function:
 
 $$ T(n) = 2T(\frac{n}{2}) + n $$
 
@@ -71,7 +79,7 @@ $$ T(n) = O(n \log n) $$
 ---
 
 # Notes
-> All modules are designed for scalability, testability, and container-friendly deployment.
+> All modules are designed for scalability, testability, and container‑friendly deployment.
 
 ---
 
