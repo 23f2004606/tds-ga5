@@ -37,6 +37,12 @@ footer {
 
 <!-- Slide with Background Image -->
 ---
+![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80)
+# Platform Architecture
+
+### High-level system overview with visual context
+
+---
 backgroundImage: "url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80')"
 backgroundSize: cover
 backgroundPosition: center
