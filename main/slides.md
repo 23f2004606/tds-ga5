@@ -1,37 +1,47 @@
 <!-- Author email: 23f2004606@ds.study.iitm.ac.in -->
 ---
-![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80)
-# Platform Architecture
+marp: true
+paginate: true
+header: "Product Documentation"
+footer: "Contact: 23f2004606@ds.study.iitm.ac.in"
+theme: custom-tech
+---
 
+<!-- Custom Theme Definition -->
+<style>
+section {
+  font-family: 'Segoe UI', sans-serif;
+  color: #e8e8e8;
+  background-color: #0c0f14;
+}
+h1, h2, h3 {
+  color: #6ab0f3;
+}
+code {
+  background: #1a1f27;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+footer {
+  color: #bbbbbb;
+}
+</style>
+
+# Product Documentation Presentation
+<!-- _class: lead -->
+## Maintainable • Version-Control Friendly • Exportable
+**Author:** 23f2004606@ds.study.iitm.ac.in
+
+---
+<!-- _backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80" -->
+<!-- _backgroundSize: cover -->
+<!-- _backgroundPosition: center -->
+# Platform Architecture
 ### High-level system overview with visual context
 
-->
 ---
-![bg](https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80)
-# Platform Architecture
-
-### High-level system overview with visual context
-
----
-backgroundImage: "url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80')"
-backgroundSize: cover
-backgroundPosition: center
-# Platform Architecture
-
-### High-level system overview with visual context
-
----
-backgroundImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1950&q=80"
-backgroundSize: cover
-backgroundPosition: center
-# Platform Architecture
-
-### High‑level system overview with visual context
-
----
-
 # API Structure
-
 ```json
 {
   "status": "ok",
@@ -41,24 +51,17 @@ backgroundPosition: center
 ```
 
 ---
-
 # Algorithmic Complexity
-
-For a divide‑and‑conquer function:
-
+For divide-and-conquer recurrence:
 $$ T(n) = 2T(\frac{n}{2}) + n $$
-
-It simplifies to:
-
+Therefore:
 $$ T(n) = O(n \log n) $$
 
 ---
-
 # Notes
-> All modules are designed for scalability, testability, and container‑friendly deployment.
+> All modules are designed for scalability, testability, and container-friendly deployment.
 
 ---
-
 # Thank You
 ### Questions?
 **Contact:** 23f2004606@ds.study.iitm.ac.in
