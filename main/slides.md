@@ -1,6 +1,9 @@
 <!-- Author email: 23f2004606@ds.study.iitm.ac.in -->
 ---
 marp: true
+paginate: true
+_class: lead
+marp: true
 theme: custom-tech
 paginate: true
 header: "Product Documentation"
